@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+}
+
+/* common container  */
+
+.container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    color: black;
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    padding: 0.5rem 0;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.item-links {
+    text-decoration: none;
+    color: black;
+}
+
+/* styling navigation bar  */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-bottom:  2rem;
+}
+
+
+.account {
+    background-color: hsla(0, 0%, 0%, 0.919);
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    transition: color 0.3s ease;
+}
+
+.account:hover {
+    background-color: rgba(0, 0, 0, 0.044);
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.781);
+    border: 2px solid black;
+    color: black;
+
+}
+
+/* main part  */
+
+.main {
+    display: grid;
+    grid-template-areas: 
+    'one one one'
+    'sidebar two two'
+    'sidebar three four';
+    gap: 1rem;
+    height: 70vh;
+    margin-bottom: 3.125rem;
+}
+
+.one {
+    grid-area: one;
+    background-color: #F5C0AC;
+
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #DBCFCF;
+}
+
+.two {
+    grid-area: two;
+    background-color: #D9D9D9;
+}
+
+.three {
+    grid-area: three;
+    background-color: #E2E2E2;
+}
+
+.four {
+    grid-area: four;
+    background-color: #E2E2E2;
+}
+
+.b-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+.social-profiles {
+    display: flex;
+}
+
+/* footer  */
+
+.footer {
+    background-color: #363636;
+    color: #FFFFFF;
+}
+
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-profiles {
+    gap: 1.5rem;
+    padding: 1rem;
+}   
+
+.social-icons {
+    height: auto;
+    width: 100%;
+}
