@@ -24,7 +24,7 @@ img {
     width: 20%;
 }
 
-/* common container  */
+/* common container for fixed width of all section */
 
 .container {
     width: 95%;
@@ -66,26 +66,18 @@ img {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    padding-bottom:  2rem;
+    padding-bottom:  1rem;
 }
 
 
 .account {
-    background-color: hsla(0, 0%, 0%, 0.919);
-    color: white;
+    background-color: #282C35;
+    color: #FFFFFF;
     padding: 0.5rem 1.25rem;
     border-radius: 0.5rem;
-    border: 2px solid rgb(0, 0, 0);
-    transition: color 0.3s ease;
 }
 
-.account:hover {
-    background-color: rgba(0, 0, 0, 0.044);
-    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.781);
-    border: 2px solid black;
-    color: black;
 
-}
 
 /* main part  */
 
@@ -96,8 +88,8 @@ img {
     'sidebar two two'
     'sidebar three four';
     gap: 1rem;
-    height: 70vh;
-    margin-bottom: 3.125rem;
+    height: 76vh;
+    margin: 0 auto 1.35rem;
 }
 
 .one {
@@ -153,11 +145,11 @@ img {
 }
 
 .social-profiles {
-    gap: 1.5rem;
-    padding: 1rem;
+    gap: 1.6rem;
+    padding: 1.5rem 0;
 }   
 
 .social-icons {
-    height: auto;
-    width: 100%;
+    height: 35px;
+    width: 35px;
 }
